@@ -1,0 +1,116 @@
+{
+  "collection_url": "https://huggingface.co/collections/talzoomanzoo/lara-contamination",
+  "checked_on": "2026-10-26",
+  "datasets": {
+    "kk": {
+      "repo_id": "talzoomanzoo/kk-mia-train-test",
+      "revision": "c833350a627fc47bb487362eadcae20115242971",
+      "files": [
+        "data/train-00000-of-00001.parquet",
+        "data/test-00000-of-00001.parquet"
+      ],
+      "benchmark_path": "benchmarks/KK/RLMIA_kk.parquet",
+      "benchmark_sha256": "ed43c0b360b152c16134728aa13dea4b8c3ead536e4975331733a7fb08ef5ef1",
+      "members": 50,
+      "nonmembers": 50
+    },
+    "sat": {
+      "repo_id": "talzoomanzoo/sat-mia-train-test",
+      "revision": "21deec09c02a13ca25f8e8fbd5cfc5c9b1c91811",
+      "files": [
+        "data/train-00000-of-00001.parquet",
+        "data/test-00000-of-00001.parquet"
+      ],
+      "benchmark_path": "benchmarks/not_used/SAT/RLMIA_SAT.parquet",
+      "benchmark_sha256": "c57727f86aca4ae4f3ac8033dfd1ef9712ec63eb676256039663a10348100f96",
+      "members": 50,
+      "nonmembers": 50
+    }
+  },
+  "models": [
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_kk_mia_epoch_0",
+      "revision": "81960b72d7e66f2a014e6b9d9cb4ea6c42a4f10b",
+      "family": "eurus",
+      "task": "kk",
+      "epoch": 0
+    },
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_kk_mia_epoch_1",
+      "revision": "39f2e4b6c60b075ea1507e8c388237d6ffc416cf",
+      "family": "eurus",
+      "task": "kk",
+      "epoch": 1
+    },
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_kk_mia_epoch_2",
+      "revision": "28cdf2db8bd6d24b2d7e6f7c5b4a607c7fd5d49d",
+      "family": "eurus",
+      "task": "kk",
+      "epoch": 2
+    },
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_sat_mia_epoch_0",
+      "revision": "3a3df8ddb72a853ce290fff34872c17bceff0f6a",
+      "family": "eurus",
+      "task": "sat",
+      "epoch": 0
+    },
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_sat_mia_epoch_1",
+      "revision": "25f4285a422306908aa794a2d433233f13cb13e6",
+      "family": "eurus",
+      "task": "sat",
+      "epoch": 1
+    },
+    {
+      "repo_id": "talzoomanzoo/eurus_grpo_sat_mia_epoch_2",
+      "revision": "a1e1e5703dac3f161e33e50d2ff475fea8584356",
+      "family": "eurus",
+      "task": "sat",
+      "epoch": 2
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_kk_mia_epoch_0",
+      "revision": "2dedc43ce61fe4e8f8284070d462bb5251f4d886",
+      "family": "limr",
+      "task": "kk",
+      "epoch": 0
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_kk_mia_epoch_1",
+      "revision": "8c6496e9b60fe37560a14e5a27b51819f486e87d",
+      "family": "limr",
+      "task": "kk",
+      "epoch": 1
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_kk_mia_epoch_2",
+      "revision": "62b224800c103ee500f0dc443820c4ec09a0506a",
+      "family": "limr",
+      "task": "kk",
+      "epoch": 2
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_sat_mia_epoch_0",
+      "revision": "60c7e7fbb5136e24f989606be94e67aa4c0fa076",
+      "family": "limr",
+      "task": "sat",
+      "epoch": 0
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_sat_mia_epoch_1",
+      "revision": "104e9ea87a864ae69ed5df56402904d5528cb6e7",
+      "family": "limr",
+      "task": "sat",
+      "epoch": 1
+    },
+    {
+      "repo_id": "talzoomanzoo/limr_grpo_sat_mia_epoch_2",
+      "revision": "343a7aa6db5e5cd92f4b8140af5d1cb9536cc78e",
+      "family": "limr",
+      "task": "sat",
+      "epoch": 2
+    }
+  ]
+}

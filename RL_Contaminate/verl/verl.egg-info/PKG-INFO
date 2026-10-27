@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: verl
+Version: 0.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: google-cloud-aiplatform
+Requires-Dist: pylatexenc
+Requires-Dist: sentence_transformers
+Requires-Dist: tabulate
+Requires-Dist: math-verify[antlr4_9_3]==0.6.0
+Requires-Dist: flash_attn==2.7.3
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python

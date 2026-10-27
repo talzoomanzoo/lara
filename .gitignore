@@ -1,0 +1,11 @@
+**/.ruff_cache/
+**/wandb/
+**/checkpoints/
+**/logs/
+**/results/
+**/final_results/
+**/tests/
+**/tmp/
+**/__pycache__/**
+**/outputs/
+**/benchmarks/
