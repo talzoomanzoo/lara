@@ -6,9 +6,17 @@ Official implementation · **EMNLP 2026 Findings**
 
 [Paper (arXiv)](https://arxiv.org/abs/2605.29888) · [Project page](https://talzoomanzoo.github.io/lara-project-page/) · [Model collection](https://huggingface.co/collections/talzoomanzoo/lara-contamination)
 
-Implementation was based on the original code from https://github.com/yongding-tao/RL-Data-Contamination
+Implementation was based on the original code from [RL-Data-Contamination](https://github.com/yongding-tao/RL-Data-Contamination).
 
 LaRA analyzes a model's internal representations across layers to detect data contamination after reinforcement learning (RL) post-training. This repository provides the LaRA detector, baseline detectors, evaluation scripts, and code for training contaminated models.
+
+![LaRA method overview: controlled perturbations, representation geometry, and layer-wise contamination scores](assets/method_overview.png)
+
+**Method overview.** LaRA removes key information from a question and creates variants that preserve its meaning. It measures representation shift, directional collapse, and local rigidity across layers, combining these signals into a contamination score. Higher scores indicate stronger evidence of contamination.
+
+![Motivation for LaRA: output probability miscalibration and changes in internal representations](assets/motivating_figure.png)
+
+**Why look inside the model?** Miscalibrated output probabilities can make contamination difficult to detect. LaRA examines how internal representations respond to perturbed questions, capturing changes in magnitude, direction, and variance across layers.
 
 ---
 
